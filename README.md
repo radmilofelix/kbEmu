@@ -18,16 +18,21 @@ Install RaspiOS on a SD card (RaspiOS Lie will be sufficient.) Make sure that ss
 Boot from the SD card and connect to RaspiOS using ssh.
 
 Update the system:
+
 $ sudo apt update
+
 $ sudo apt full-upgrade
 
 Reboot, reconnect.
 
 Copy the kbEmu folder on the Raspberry Pi. Navigate to the folder, and make the install script executable:
+
 $ cd ~/kbEmu
+
 $ chmod +x install.sh
 
 Run the install script:
+
 $ sudo ./install.sh
 
 Move the SD to a Raspberry Pi Zero w. Connect to its WiFi network (kbEmu).
