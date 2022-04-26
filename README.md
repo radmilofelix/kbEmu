@@ -7,15 +7,9 @@ To do that, simply connect the raspberry Pi to the computer you want to control,
 Run kbEmu in the terminal and the strings you type afterwards will be sent to the controlled computer. You can send sets of commands by copy-pasting them.
 End the program by pressing Ctrl+C. Use "helpme" at the program prompt to display help information.
 
-Default Wifi data:
-SSID: kbEmu
-Pass: kbEmuStart
-
-Default IP to connect via SSH to the Raspberry Pi: 192.168.11.1
-
 Installation (do it on an ordinary RaspberryPi):
 Install RaspiOS on a SD card (RaspiOS Lite will be sufficient.) Make sure that ssh service can be used and that RaspiOS user and password are defined.
-Boot from the SD card and connect to RaspiOS using ssh.
+Boot from the SD card and connect to RaspiOS using ssh or connect to the Pi directly (keyboard + monitor).
 
 Update the system:
 
@@ -23,19 +17,21 @@ $ sudo apt update
 
 $ sudo apt full-upgrade
 
-Reboot, reconnect.
+Reboot if necessary, reconnect.
 
-Clone the kbEmu folder on the Raspberry Pi. Navigate to the folder, and make the install script executable:
+Clone the kbEmu folder on the Raspberry Pi. Navigate to the folder, and run the install script::
 
 $ cd ~/kbEmu
-
-$ chmod +x install.sh
-
-Run the install script:
 
 $ sudo ./install.sh
 
 The install script will set the Raspberry Pi's own WiFi, define a keyboard device so that the Pi acts as a keyboard for the host to which it is connected with the USB cable, compile and install the program.
+
+Default Wifi data:
+SSID: kbEmu
+Pass: kbEmuStart
+
+Default IP to connect via SSH to the Raspberry Pi: 192.168.11.1
 
 Move the SD to a Raspberry Pi Zero W. Connect to its WiFi network (kbEmu).
 Run kbEmu as root.
