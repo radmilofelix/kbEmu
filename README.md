@@ -11,7 +11,7 @@ Default Wifi data:
 SSID: kbEmu
 Pass: kbEmuStart
 
-Default IP to connect to the Raspberry Pi: 192.168.11.1
+Default IP to connect via SSH to the Raspberry Pi: 192.168.11.1
 
 Installation (do it on an ordinary RaspberryPi):
 Install RaspiOS on a SD card (RaspiOS Lite will be sufficient.) Make sure that ssh service can be used and that RaspiOS user and password are defined.
