@@ -37,6 +37,6 @@ $ sudo ./install.sh
 
 The install script will set the Raspberry Pi's own WiFi, define a keyboard device so that the Pi acts as a keyboard for the host to which it is connected with the USB cable, compile and install the program.
 
-Move the SD to a Raspberry Pi Zero w. Connect to its WiFi network (kbEmu).
+Move the SD to a Raspberry Pi Zero W. Connect to its WiFi network (kbEmu).
 Run kbEmu as root.
 Enjoy.
