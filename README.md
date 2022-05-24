@@ -18,7 +18,7 @@ $ sudo apt full-upgrade
 Reboot if necessary, reconnect.
 
 Clone the kbEmu folder on the Raspberry Pi.
-git clone https://github.com/radmilofelix/kbEmu.git
+$ git clone https://github.com/radmilofelix/kbEmu.git
 
 Navigate to the folder, and run the install script::
 $ cd ~/kbEmu
