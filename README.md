@@ -12,17 +12,16 @@ Install RaspiOS on a SD card (RaspiOS Lite will be sufficient.) Make sure that s
 Boot from the SD card and connect to RaspiOS using ssh or connect to the Pi directly (keyboard + monitor).
 
 Update the system:
-
 $ sudo apt update
-
 $ sudo apt full-upgrade
 
 Reboot if necessary, reconnect.
 
-Clone the kbEmu folder on the Raspberry Pi. Navigate to the folder, and run the install script::
+Clone the kbEmu folder on the Raspberry Pi.
+git clone https://github.com/radmilofelix/kbEmu.git
 
+Navigate to the folder, and run the install script::
 $ cd ~/kbEmu
-
 $ sudo ./install.sh
 
 The install script will set the Raspberry Pi's own WiFi, define a keyboard device so that the Pi acts as a keyboard for the host to which it is connected with the USB cable, compile and install the program.
