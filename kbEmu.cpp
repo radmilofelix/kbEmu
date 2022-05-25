@@ -7,7 +7,7 @@ KbScancodeEmulator kbscem;
 
 int main(int argc, char **argv)
 {
-	printf("kbEmu start. Hit Enter to send the string to USB. Use ctrl/c to exit.\n");
+	printf("kbEmu start.\nHit Enter to send the string to USB.\nUse ctrl/c to exit.\n\n");
 	
 	while(1)
 	{
