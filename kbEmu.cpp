@@ -7,7 +7,7 @@ KbScancodeEmulator kbscem;
 
 int main(int argc, char **argv)
 {
-	printf("Program start.\n");
+	printf("kbEmu start. Use ctrl/c to exit.\n");
 	
 	while(1)
 	{
