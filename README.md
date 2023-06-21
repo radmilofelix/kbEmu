@@ -35,6 +35,6 @@ Pass: kbEmuStart
 
 Default IP to connect via SSH to the Raspberry Pi: 192.168.11.1
 
-Move the SD to a Raspberry Pi Zero W. Connect to its WiFi network (kbEmu).
+Move the SD to a Raspberry Pi Zero W. Connect to its WiFi network (kbEmu) and connect to it via SSH.
 Run kbEmu as root.
 Enjoy.
